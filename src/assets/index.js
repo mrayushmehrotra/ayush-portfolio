@@ -28,7 +28,8 @@ import tesla from "./company/tesla.png";
 
 import spotify from "./spotify.png";
 import sathi from "./sathi.png";
-import tripguide from "./tripguide.png";
+
+import ecommerce from "./ecommerce.png";
 
 export {
   logo,
@@ -55,8 +56,8 @@ export {
   meta,
   shopify,
   starbucks,
+  ecommerce,
   tesla,
   spotify,
   sathi,
-  tripguide,
 };

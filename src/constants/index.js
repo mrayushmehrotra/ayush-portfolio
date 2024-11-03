@@ -13,14 +13,11 @@ import {
   nodejs,
   mongodb,
   git,
+  ecommerce,
   figma,
   docker,
-  meta,
-  tesla,
-  shopify,
   spotify,
   sathi,
-  tripguide,
   threejs,
 } from "../assets";
 import codetikki from "../assets/company/codetikki.jpeg";
@@ -191,8 +188,25 @@ const projects = [
       },
     ],
     image: sathi,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mrayushmehrotra/Sathi",
     live_link: "https://sathi-five.vercel.app/",
+  },
+  {
+    name: "Ecommerce Backend",
+    description:
+      "A Ecommerce Backend built using NodeJS, ExpressJS, MongoDB,  having email OTP integration and payment gateway integration with robust architecture.",
+    tags: [
+      {
+        name: "expressjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/mrayushmehrotra/ecommerce-backend",
   },
 ];
 
