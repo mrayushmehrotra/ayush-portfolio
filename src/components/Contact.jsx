@@ -18,63 +18,64 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <div className="m-8"></div>
 
-        <label className="flex flex-col m-4">
+        <label className="flex flex-col m-4 ">
           <div className="">
+            <a href="mailto:ayusmehrotra007@gmail.com">
             <input
               type="text"
               name="name"
-              value="ayusmehrotra007@gmail.com"
+              value="email/ayusmehrotra007"
               readonly
-              className="bg-tertiary caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-tertiary cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
-            &nbsp;  &nbsp;  &nbsp;
-            <a  href="mailto:ayusmehrotra007@gmail.com">
-              <i class="ri-mail-send-line text-3xl"></i>
+            &nbsp; &nbsp; &nbsp;
             </a>
           </div>
         </label>
         <label className="flex flex-col m-4">
           <div className="">
-            <input
-              type="text"
-              name="name"
-              value="mein.ayush.hoon"
-              readonly
-              className="bg-tertiary caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-             &nbsp;  &nbsp;  &nbsp;
             <a target="_blank" href="https://instagram.com/mein.ayush.hoon">
-              <i class="ri-instagram-line text-3xl"></i>
+              <input
+                type="text"
+                name="name"
+                value="instagram/mein.ayush.hoon"
+                readonly
+                className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+              &nbsp; &nbsp; &nbsp;
             </a>
           </div>
         </label>
         <label className="flex flex-col m-4">
           <div className="">
+          <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ayush-mehrotra-99419724b"
+            >
             <input
               type="text"
               name="name"
-              value="ayush-mehrotra-99419724b"
+              value="linkedin/ayush-mehrotra"
               readonly
-              className="bg-tertiary caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-             &nbsp;  &nbsp;  &nbsp;
-            <a target="_blank" href="https://www.linkedin.com/in/ayush-mehrotra-99419724b">
-              <i class="ri-linkedin-line text-3xl"></i>
+              className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+           />
+            &nbsp; &nbsp; &nbsp;
+         
             </a>
           </div>
         </label>
         <label className="flex flex-col m-4">
           <div className="">
+          <a target="_blank" href="https://x.com/AYUSH070707">
             <input
               type="text"
               name="name"
-              value="AYUSH070707"
+              value="x.com/AYUSH070707"
               readonly
-              className="bg-tertiary caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
-             &nbsp;  &nbsp;  &nbsp;
-            <a target="_blank" href="https://x.com/AYUSH070707">
-              <i class="ri-twitter-x-line text-3xl"></i>
+            &nbsp; &nbsp; &nbsp;
+           
             </a>
           </div>
         </label>
