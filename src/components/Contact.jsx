@@ -17,18 +17,36 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <div className="m-8"></div>
+        <label className="flex flex-col m-4">
+          <div className="">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1o-jfLVaIzGkIwQ8C2Fyysiap5spFP3JK/view?usp=sharing
+"
+            >
+              <input
+                type="text"
+                name="name"
+                value="Resume"
+                readonly
+                className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+              &nbsp; &nbsp; &nbsp;
+            </a>
+          </div>
+        </label>
 
         <label className="flex flex-col m-4 ">
           <div className="">
             <a href="mailto:ayusmehrotra007@gmail.com">
-            <input
-              type="text"
-              name="name"
-              value="email/ayusmehrotra007"
-              readonly
-              className="bg-tertiary cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-            &nbsp; &nbsp; &nbsp;
+              <input
+                type="text"
+                name="name"
+                value="email/ayusmehrotra007"
+                readonly
+                className="bg-tertiary cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+              &nbsp; &nbsp; &nbsp;
             </a>
           </div>
         </label>
@@ -48,34 +66,32 @@ const Contact = () => {
         </label>
         <label className="flex flex-col m-4">
           <div className="">
-          <a
+            <a
               target="_blank"
               href="https://www.linkedin.com/in/ayush-mehrotra-99419724b"
             >
-            <input
-              type="text"
-              name="name"
-              value="linkedin/ayush-mehrotra"
-              readonly
-              className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-           />
-            &nbsp; &nbsp; &nbsp;
-         
+              <input
+                type="text"
+                name="name"
+                value="linkedin/ayush-mehrotra"
+                readonly
+                className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+              &nbsp; &nbsp; &nbsp;
             </a>
           </div>
         </label>
         <label className="flex flex-col m-4">
           <div className="">
-          <a target="_blank" href="https://x.com/AYUSH070707">
-            <input
-              type="text"
-              name="name"
-              value="x.com/AYUSH070707"
-              readonly
-              className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-            &nbsp; &nbsp; &nbsp;
-           
+            <a target="_blank" href="https://x.com/AYUSH070707">
+              <input
+                type="text"
+                name="name"
+                value="x.com/AYUSH070707"
+                readonly
+                className="bg-tertiary  cursor-pointer caret-transparent py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+              &nbsp; &nbsp; &nbsp;
             </a>
           </div>
         </label>
