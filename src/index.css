@@ -126,6 +126,14 @@
   transform: translateZ(0);
 }
 
+.cardAnime {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
 @keyframes mulShdSpin {
   0%,
   100% {
