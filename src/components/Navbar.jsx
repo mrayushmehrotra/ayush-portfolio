@@ -120,8 +120,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <center ref={strRef} className="w-full  z-[-10]  ">
-        <svg height="20" width="1500">
+      <center ref={strRef} className="w-full z-10 ">
+        <svg height="200" width="1500">
           <path
             d="M 10 100 Q 500 100 1490 100"
             stroke="white"
