@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Terminal from "./Terminal";
 
 const Hero = () => {
   return (
@@ -19,13 +20,20 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Ayush</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
+            I develop full stack apps , user <br className="sm:block hidden" />
             interfaces and Android & Web applications
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {(() => {
+        try {
+          return <ComputersCanvas />;
+        } catch (err) {
+          console.error(err); // Log the error for debugging
+          return <Terminal />;
+        }
+      })()}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

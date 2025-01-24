@@ -25,7 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import aideation from "./Aideation.png";
 import spotify from "./spotify.png";
 import sathi from "./sathi.png";
 
@@ -40,6 +40,7 @@ export {
   github,
   menu,
   close,
+  aideation,
   css,
   docker,
   figma,

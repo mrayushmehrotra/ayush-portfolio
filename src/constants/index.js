@@ -18,6 +18,7 @@ import {
   docker,
   spotify,
   sathi,
+  aideation,
   threejs,
 } from "../assets";
 import codetikki from "../assets/company/codetikki.jpeg";
@@ -167,10 +168,45 @@ const projects = [
         name: "live",
         color: "orange-text-gradient",
       },
+      {
+        name: "radix-ui",
+        color: "black-text-gradient",
+      },
     ],
     image: spotify,
     source_code_link: "https://github.com/mrayushmehrotra/spotify-clone",
     live_link: "https://spotify-clone-ashy-five.vercel.app/",
+  },
+  {
+    name: "Aideation",
+    description:
+      "A Notion Clone project is a web application that replicates the core features and functionality of Notion, a popular all-in-one workspace for note-taking, task management, and collaboration.",
+    tags: [
+      {
+        name: "tanstack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NeonDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "live",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "radix-ui",
+        color: "black-text-gradient",
+      },
+    ],
+    image: aideation,
+    source_code_link: "https://github.com/mrayushmehrotra/notion-clone",
+    live_link: "https://notion-clone-peach-six.vercel.app/",
   },
   {
     name: "Sathi | AI ",
