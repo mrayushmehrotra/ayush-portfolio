@@ -26,14 +26,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {(() => {
-        try {
-          return <ComputersCanvas />;
-        } catch (err) {
-          console.error(err); // Log the error for debugging
-          return <Terminal />;
-        }
-      })()}
+      <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
